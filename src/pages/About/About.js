@@ -10,16 +10,13 @@ export const About = () => {
           <Link to="/"> Home</Link>
         </li>
         <li>
-          <a href="#">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#">Paintings</a>
+          <Link to="/paintings"> Paintings</Link>
         </li>
         <li>
-          <a href="#">Graphics</a>
-        </li>
-        <li>
-          <a href="#">Digital Art</a>
+          <Link to="/digitalarts"> Digital Arts</Link>
         </li>
       </ul>
       <div className="maincontainer">

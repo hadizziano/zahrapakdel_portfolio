@@ -68,21 +68,11 @@ export const Home = () => {
               <button>Peintures</button>
             </Link>
           </div>
+
           <div>
-            <button
-              onClick={() =>
-                (window.location.href = "./graphics/graphics.html")
-              }
-            >
-              Graphique
-            </button>
-          </div>
-          <div>
-            <button
-              onClick={() => (window.location.href = "./digital/digital.html")}
-            >
-              Arts numériques
-            </button>
+            <Link to="./digitalarts">
+              <button>Arts numériques</button>
+            </Link>
           </div>
         </div>
       </div>
