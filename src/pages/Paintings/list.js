@@ -1,5 +1,13 @@
 export const paintingList = [
   {
+    Aname: "Parpari",
+    Technique: "watercolor",
+    url: "./pictures/sparrow.jpg",
+    description:
+      "Cet oiseau n'est en réalité pas un moineau, il est connu sous le nom de Torgheh dans la culture perse, qui rend encore meilleures les chansons des canaris. Il était un jour, il y a environ un an, il a été abandonné devant la porte de notre maison, c'était un enfant et il ne savait pas voler. Nous avons pris soin de lui et maintenant il est notre meilleur ami. Nous l'avons nommé Parpari",
+  },
+
+  {
     Aname: "Christian hemthworth",
     Technique: "Chiaroscuro",
     url: "./pictures/chris.jpg",
