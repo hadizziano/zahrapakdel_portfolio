@@ -74,7 +74,7 @@ export const Paintings = () => {
               return (
                 <div className="artwork" id={item.Aname}>
                   <img
-                    src={item.url}
+                    src={item.lite}
                     alt={item.Aname}
                     onClick={() => {
                       setimageurl(item.url);
